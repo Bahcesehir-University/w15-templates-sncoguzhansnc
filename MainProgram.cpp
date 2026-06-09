@@ -139,14 +139,14 @@ public:
         // replace
         if ( index < 0  || index >= N)
         throw std::out_of_range("FixedArray index out of range");
-        return data_[index];
+         data_[index];
     }
 
     // TODO 6d: return data_[index]; throw std::out_of_range if invalid
     T at(int index) const {
          if ( index < 0  || index >= N)
         throw std::out_of_range("FixedArray index out of range");
-        return data_[index];; // <-- replace
+         data_[index];; // <-- replace
     }
 };
 
