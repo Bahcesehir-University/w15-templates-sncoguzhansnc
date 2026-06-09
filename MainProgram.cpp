@@ -103,7 +103,7 @@ public:
 // TODO 5a: Generic describe() - return 1 for any non-string type.
 template <typename T>
 int describe(const T& value) {
-    return 0; // <-- replace with 1
+    return 1; // <-- replace with 1
 }
 
 // TODO 5b: Full specialization of describe for std::string.
